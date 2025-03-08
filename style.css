@@ -1,0 +1,77 @@
+.sign_up{
+    margin: 50px 550px 50px 550px ;
+    border: 1px solid;
+    padding:100px;
+    background-color: pink;
+    height:650px;
+    box-shadow: 10px 10px 10px 10px grey;
+
+}
+    
+.names{
+    border:none;
+    display: inline-flex;
+    flex-direction: row;
+
+
+}
+fieldset{
+    gap:20px;
+}
+
+
+#submit_button{
+    color:yellow;
+    border-radius: 10px;
+    align-content:center;
+    background-color: grey;
+}
+.hr-lines{
+    position:relative;
+    max-width:350px ;
+    margin:100px auto;
+    text-align: center;}
+
+.hr-lines:before{
+    position: absolute;
+    display: block;
+    top:50%;
+    left:0;
+    height:1px;
+    width:80px;
+    background: black;
+    content:"";}
+    
+
+
+.hr-lines:after{
+    position:absolute;
+    display: block;
+    top:50%;
+    background:black;
+    height:1px;
+    content:"";
+    width:80px;
+    right:0;}
+    
+
+#signup{
+    color:blueviolet
+}
+.icons{
+    gap:40px;
+    display: block flex;
+    justify-content: center;    
+
+}
+#google{
+    height: 10px;
+    width:10%;
+    color:red
+}
+#facebook{
+    color:blue;
+    height: 1cm;
+    width: 10px;
+
+}
